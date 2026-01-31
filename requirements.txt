@@ -1,0 +1,6 @@
+python-sat
+scikit-learn
+numpy
+pandas
+ucimlrepo
+matplotlib
