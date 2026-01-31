@@ -1,0 +1,170 @@
+TESTE COM 10 INSTÂNCIAS
+
+=== Instance ===
+[7.3 2.9 6.3 1.8]
+Predições atuais: DT = virginica | RF = virginica
+
+============================
+TARGET: setosa
+============================
+[ÁRVORE] #mín. mudanças: 3
+ - petal width (cm) <= 0.800
+ - petal width (cm) <= 1.550
+ - petal width (cm) <= 1.750
+Caminho usado (feat, thr, dir):
+  (petal width (cm), 0.800, left)
+[FLORESTA] #mín. mudanças: 32
+ - petal length (cm) <= 4.750
+ - petal length (cm) <= 4.800
+ - petal length (cm) <= 4.850
+ - petal length (cm) <= 4.850
+ - petal length (cm) <= 4.900
+ - petal length (cm) <= 4.900
+ - petal length (cm) <= 4.950
+ - petal length (cm) <= 5.000
+ - petal length (cm) <= 5.050
+ - petal length (cm) <= 5.150
+ - petal length (cm) <= 5.200
+ - petal length (cm) <= 5.250
+ - petal length (cm) <= 5.300
+ - petal length (cm) <= 5.350
+ - petal length (cm) <= 5.400
+ - petal length (cm) <= 5.450
+ - petal width (cm) <= 0.600
+ - petal width (cm) <= 0.650
+ - petal width (cm) <= 0.700
+ - petal width (cm) <= 0.750
+ - petal width (cm) <= 0.750
+ - petal width (cm) <= 0.750
+ - petal width (cm) <= 0.800
+ - petal width (cm) <= 1.250
+ - petal width (cm) <= 1.350
+ - petal width (cm) <= 1.400
+ - petal width (cm) <= 1.450
+ - petal width (cm) <= 1.550
+ - petal width (cm) <= 1.650
+ - petal width (cm) <= 1.650
+ - petal width (cm) <= 1.700
+ - petal width (cm) <= 1.750
+Árvores que votaram alvo: 51
+
+============================
+TARGET: versicolor
+============================
+[ÁRVORE] #mín. mudanças: 2
+ - petal length (cm) <= 5.450
+ - petal width (cm) <= 1.750
+Caminho usado (feat, thr, dir):
+  (petal width (cm), 0.800, right)
+  (petal length (cm), 4.750, right)
+  (petal width (cm), 1.750, left)
+  (petal length (cm), 4.950, right)
+  (petal width (cm), 1.550, right)
+  (petal length (cm), 5.450, left)
+[FLORESTA] #mín. mudanças: 9
+ - petal length (cm) <= 5.050
+ - petal length (cm) <= 5.150
+ - petal length (cm) <= 5.200
+ - petal length (cm) <= 5.250
+ - petal length (cm) <= 5.300
+ - petal length (cm) <= 5.350
+ - petal length (cm) <= 5.400
+ - petal length (cm) <= 5.450
+ - petal width (cm) <= 1.750
+Árvores que votaram alvo: 51
+
+============================
+TARGET: virginica
+============================
+[ÁRVORE] #mín. mudanças: 0
+Caminho usado (feat, thr, dir):
+  (petal width (cm), 0.800, right)
+  (petal length (cm), 4.750, right)
+  (petal width (cm), 1.750, right)
+  (petal length (cm), 4.850, right)
+[FLORESTA] #mín. mudanças: 0
+Árvores que votaram alvo: 51
+
+----------------------------------------------------------------------------------
+
+TESTE COM 3 INSTANCIAS
+
+=== Instance ===
+[4.8 3.4 1.6 0.2]
+Predições atuais: DT = setosa | RF = setosa
+
+============================
+TARGET: setosa
+============================
+[ÁRVORE] #mín. mudanças: 0
+Caminho usado (feat, thr, dir):
+  (petal width (cm), 0.800, left)
+[FLORESTA] #mín. mudanças: 0
+Árvores que votaram alvo: 51
+
+============================
+TARGET: versicolor
+============================
+[ÁRVORE] #mín. mudanças: 1
+ - petal width (cm) > 0.800
+Caminho usado (feat, thr, dir):
+  (petal width (cm), 0.800, right)
+  (petal length (cm), 4.750, left)
+[FLORESTA] #mín. mudanças: 8
+ - petal length (cm) > 2.350
+ - petal width (cm) > 0.600
+ - petal width (cm) > 0.650
+ - petal width (cm) > 0.700
+ - petal width (cm) > 0.750
+ - petal width (cm) > 0.750
+ - petal width (cm) > 0.750
+ - petal width (cm) > 0.800
+Árvores que votaram alvo: 51
+
+============================
+TARGET: virginica
+============================
+[ÁRVORE] #mín. mudanças: 4
+ - petal length (cm) > 4.750
+ - petal length (cm) > 4.850
+ - petal length (cm) > 4.950
+ - petal width (cm) > 0.800
+Caminho usado (feat, thr, dir):
+  (petal width (cm), 0.800, right)
+  (petal length (cm), 4.750, right)
+  (petal width (cm), 1.750, left)
+  (petal length (cm), 4.950, right)
+  (petal width (cm), 1.550, left)
+[FLORESTA] #mín. mudanças: 31
+ - sepal length (cm) > 4.850
+ - sepal length (cm) > 5.450
+ - sepal length (cm) > 5.550
+ - sepal length (cm) > 5.750
+ - petal length (cm) > 2.350
+ - petal length (cm) > 2.450
+ - petal length (cm) > 2.450
+ - petal length (cm) > 2.500
+ - petal length (cm) > 2.600
+ - petal length (cm) > 2.600
+ - petal length (cm) > 2.700
+ - petal length (cm) > 4.450
+ - petal length (cm) > 4.550
+ - petal length (cm) > 4.650
+ - petal length (cm) > 4.700
+ - petal length (cm) > 4.750
+ - petal length (cm) > 4.800
+ - petal length (cm) > 4.850
+ - petal length (cm) > 4.850
+ - petal length (cm) > 4.900
+ - petal length (cm) > 4.900
+ - petal length (cm) > 4.950
+ - petal length (cm) > 5.000
+ - petal length (cm) > 5.050
+ - petal width (cm) > 0.600
+ - petal width (cm) > 0.650
+ - petal width (cm) > 0.700
+ - petal width (cm) > 0.750
+ - petal width (cm) > 0.750
+ - petal width (cm) > 0.750
+ - petal width (cm) > 0.800
+Árvores que votaram alvo: 51
